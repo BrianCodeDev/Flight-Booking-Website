@@ -259,3 +259,55 @@ h2 {
    }
 
 }
+
+
+
+
+// Search section styling
+
+.search {
+    .sectionContainer {
+        width: 100%;
+        padding: 1.5rem;
+        border: 2px solid grey;
+        border-radius: 16px;
+        row-gap: 2rem;
+       
+        .btns{
+            background: rgb(228, 226, 226);
+            padding: .5rem;
+            border-radius: 1rem;
+            flex-direction: column;
+            margin: auto;
+        }
+
+         .singleBtn{
+            padding: .8rem 1.5rem;
+            font-size: 15px;
+            border-radius: 3rem;
+            width: 80%;
+            text-align: center;
+
+            &:hover {
+                background-color: rgb(74, 74, 248);
+                color: white;
+                font-weight: 500;
+                transition: .4s ease;
+            }
+         }
+
+         .active{
+            background: rgb(74, 74, 248);
+            justify-content: center;
+            flex-direction: column;
+         }
+
+
+    }
+
+           .searchInputs {
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+           }
+}
