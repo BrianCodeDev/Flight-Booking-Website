@@ -15,14 +15,14 @@ const  App = () => {
   return (
  <div>
      <Navbar />
-    {/* <Home />
-    <Search />
+    <Home />
+    {/* <Search />
     <Support />
     <Info />
     <Lounge />
     <Travlers />
     <Subscribers />
-    <Footer /> */}
+    <Footer />  */}
 
  </div>
       )

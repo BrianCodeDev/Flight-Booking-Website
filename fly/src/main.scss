@@ -155,7 +155,7 @@ h2 {
             padding: 1.5rem;
             border-radius: 10px;
             top: 5rem;
-            right: 50%;
+            right: -50%;
             width: 80%;
             transform: translate(50%);
             z-index: 2000;
@@ -204,7 +204,57 @@ h2 {
            }
       }
 
+
+      .showNavBar {
+        right: 50%;
+        transition: .5s ease-in-out;
+      }
+
    }
 
+   
+
+
+}
+
+
+//  Home section styling
+
+.home{
+    padding-top: 10rem;
+    text-align: center;
+    gap: 2rem;
+    flex-direction: column;
+
+.mainText {
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 2.5rem;
+}
+
+   .homeImages{
+    width: 100%;
+    margin: 1rem auto 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5rem;
+ .videoDiv {
+    width: 100%;
+    .video {
+        border-radius: 10rem;
+        width: 80%;
+    }
+ }
+
+ .plane {
+    position: absolute;
+    width: 95%;
+    left: 0;
+
+ }
+
+   }
 
 }
