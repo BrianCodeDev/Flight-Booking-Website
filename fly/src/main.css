@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Poppins:ital,wght@0,300;0,400;1,200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.section {
+  padding: 4rem 0 2rem;
+}
+
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.icon {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+.none {
+  display: none;
+}
+
+.btn {
+  padding: 0.7rem 1.5rem;
+  background: blue;
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  color: white;
+}
+.btn a {
+  color: white;
+  font-weight: 500;
+}
+.btn:hover {
+  background: rgb(32, 32, 245);
+}
+
+img, video {
+  font-size: 100%;
+  color: grey;
+}
+
+p {
+  font-size: 13px;
+  color: grey;
+  line-height: 22px;
+}
+
+h4 {
+  padding: 1rem 0;
+  font-weight: 700;
+  color: black;
+}
+
+h2 {
+  font-size: 25px;
+  padding: 1rem 0;
+  color: black;
+}
+
+.navBar {
+  position: fixed;
+  flex-direction: column;
+  width: 100%;
+  z-index: 1000;
+}
+.navBar .navBarOne, .navBar .navBarTwo {
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+}
+.navBar .navBarOne {
+  background: rgb(244, 245, 246);
+}
+.navBar .navBarOne .icon:hover {
+  color: rgb(4, 51, 109);
+}
+.navBar .navBarOne .atb {
+  gap: 1rem;
+}
+.navBar .navBarOne .atb span {
+  color: black;
+  font-size: 13px;
+  cursor: pointer;
+}
+.navBar .navBarOne .atb span:hover {
+  color: rgb(23, 23, 251);
+  font-size: 700;
+}
+.navBar .navBarTwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 3rem;
+  padding: 1.5rem 1rem;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+}
+.navBar .navBarTwo .logoDiv .Logo {
+  width: 12%;
+}
+@media screen and (max-width: 768px) {
+  .navBar .navBarTwo .navBarMenu {
+    position: absolute;
+    background: rgb(188, 188, 188);
+    padding: 1.5rem;
+    border-radius: 10px;
+    top: 5rem;
+    right: 50%;
+    width: 80%;
+    transform: translate(50%);
+    z-index: 2000;
+    box-shadow: 2px 2px 2px rgb(77, 77, 77);
+    border: 3px solid white;
+    transition: 0.4s ease-in-out;
+  }
+  .navBar .navBarTwo .navBarMenu .menu {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .navBar .navBarTwo .navBarMenu .menu .listItem {
+    padding: 0.5rem 0;
+    cursor: pointer;
+    color: black;
+  }
+  .navBar .navBarTwo .navBarMenu .menu .listItem:hover {
+    color: rgb(34, 34, 245);
+    font-weight: 700;
+  }
+  .navBar .navBarTwo .navBarMenu .btnOne {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .navBar .navBarTwo .btnTwo {
+    display: none;
+  }
+}
+.navBar .navBarTwo .toggleIcon .icon {
+  font-size: 30px;
+  color: black;
+}/*# sourceMappingURL=main.css.map */
